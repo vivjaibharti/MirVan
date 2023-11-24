@@ -1,13 +1,24 @@
 <!DOCTYPE html>
+{%load static%}
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <!-- CSS -->
+  <link href="{% static 'login.css' %}" rel="stylesheet">
 </head>
+
 <body>
-    <div class="mainDiv">
-        
+  <div class="mainDiv">
+    <div class="innerDiv">
+      <div class="login1" id="login1">
+        <button class="btn" id="adminBtn">Admin</button>
+        <button class="btn" id="empBtn">Employee</button>
+      </div>
     </div>
+  </div>
 </body>
+
 </html>
