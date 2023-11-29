@@ -8,16 +8,13 @@
   <title>Login</title>
   <!-- CSS -->
   <link href="{% static 'login.css' %}" rel="stylesheet">
+  <script src="{% static 'login.js' %}"></script>
 </head>
 
 <body>
-  <div class="mainDiv">
-    <div class="innerDiv">
-      <div class="login1" id="login1">
-        <button class="btn" id="adminBtn">Admin</button>
-        <button class="btn" id="empBtn">Employee</button>
-      </div>
-    </div>
+  <div class="login1" id="login1">
+    <button class="btn" id="adminBtn" onclick="openaelogin()">Admin</button>
+    <button class="btn" id="empBtn">Employee</button>
   </div>
 </body>
 
